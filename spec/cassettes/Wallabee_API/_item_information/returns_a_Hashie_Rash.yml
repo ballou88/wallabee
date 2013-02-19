@@ -1,0 +1,56 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.wallab.ee/items/1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-WallaBee-API-Key:
+      - 50c3ab67-954c-48ea-b06b-71514d4902ab
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      !binary "ZGF0ZQ==":
+      - !binary |-
+        VHVlLCAxOSBGZWIgMjAxMyAwODowMTozMCBHTVQ=
+      !binary "c2VydmVy":
+      - !binary |-
+        QXBhY2hl
+      !binary "dmFyeQ==":
+      - !binary |-
+        QWNjZXB0LUVuY29kaW5nLFVzZXItQWdlbnQ=
+      !binary "YWNjZXNzLWNvbnRyb2wtYWxsb3ctb3JpZ2lu":
+      - !binary |-
+        Kg==
+      !binary "YWNjZXNzLWNvbnRyb2wtYWxsb3ctaGVhZGVycw==":
+      - !binary |-
+        WC1XYWxsYUJlZS1BUEktS2V5
+      !binary "Y29udGVudC1sZW5ndGg=":
+      - !binary |-
+        MjM2
+      !binary "Y29udGVudC10eXBl":
+      - !binary |-
+        dGV4dC9odG1sOyBjaGFyc2V0PVVURi04
+      !binary "Y29ubmVjdGlvbg==":
+      - !binary |-
+        Y2xvc2U=
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJpdGVtX2lkIjoiMSIsIml0ZW1fdHlwZV9pZCI6IjEyIiwic2V0X2lkIjoi
+        MiIsIm5hbWUiOiJCZWFyZGVkIExhZHkiLCJudW1iZXIiOiIxIiwicXVhbGlm
+        aWVyIjoiYSIsImltYWdlX3VybF81MCI6Imh0dHA6XC9cL2FwaS53YWxsYWIu
+        ZWVcL2ltYWdlXC9pdGVtLTEyLTUwLnBuZyIsImltYWdlX3VybF8xMDAiOiJo
+        dHRwOlwvXC9hcGkud2FsbGFiLmVlXC9pbWFnZVwvaXRlbS0xMi0xMDAucG5n
+        IiwiaW1hZ2VfdXJsXzIwMCI6Imh0dHA6XC9cL2FwaS53YWxsYWIuZWVcL2lt
+        YWdlXC9pdGVtLTEyLTIwMC5wbmciLCJtaXhfaXRlbXMiOltdLCJ1c2VyX2lk
+        IjoiMSIsInBsYWNlX2lkIjoiMCIsInVzZWRfaW5fbWl4IjoiMCIsInNhdmVk
+        IjpmYWxzZSwiY3JlYXRlZF9hdCI6IldlZCwgMTUgRmViIDIwMTIgMTg6Mzc6
+        NTEgKzAwMDAiLCJzdGF0dXMiOiIifQ==
+    http_version: 
+  recorded_at: Tue, 19 Feb 2013 08:01:44 GMT
+recorded_with: VCR 2.4.0

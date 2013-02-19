@@ -1,0 +1,65 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.wallab.ee/items/1/activity
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-WallaBee-API-Key:
+      - 50c3ab67-954c-48ea-b06b-71514d4902ab
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      !binary "ZGF0ZQ==":
+      - !binary |-
+        VHVlLCAxOSBGZWIgMjAxMyAwODowMzo1MCBHTVQ=
+      !binary "c2VydmVy":
+      - !binary |-
+        QXBhY2hl
+      !binary "dmFyeQ==":
+      - !binary |-
+        QWNjZXB0LUVuY29kaW5nLFVzZXItQWdlbnQ=
+      !binary "YWNjZXNzLWNvbnRyb2wtYWxsb3ctb3JpZ2lu":
+      - !binary |-
+        Kg==
+      !binary "YWNjZXNzLWNvbnRyb2wtYWxsb3ctaGVhZGVycw==":
+      - !binary |-
+        WC1XYWxsYUJlZS1BUEktS2V5
+      !binary "Y29udGVudC1sZW5ndGg=":
+      - !binary |-
+        MjY3
+      !binary "Y29udGVudC10eXBl":
+      - !binary |-
+        dGV4dC9odG1sOyBjaGFyc2V0PVVURi04
+      !binary "Y29ubmVjdGlvbg==":
+      - !binary |-
+        Y2xvc2U=
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJwb3N0cyI6W3sidXNlcl9pZCI6IjEiLCJ0eXBlIjoiaXRlbXVudmF1bHQi
+        LCJwcmltYXJ5X2l0ZW1faWQiOiIxIiwic2Vjb25kYXJ5X2l0ZW1faWQiOm51
+        bGwsInRlcnRpYXJ5X2l0ZW1faWQiOm51bGwsInBsYWNlX2lkIjpudWxsLCJj
+        b21wbGV0ZWRfc2V0X2lkIjpudWxsLCJhY2hpZXZlbWVudF9pZCI6bnVsbCwi
+        Y3JlYXRlZF9hdCI6IlNhdCwgMjggSnVsIDIwMTIgMTA6NTg6MDYgKzAwMDAi
+        LCJjb21tZW50X2NvdW50IjoiNCIsImxhc3RfdXBkYXRlZCI6IjIwMTItMDct
+        MjggMTA6NTg6MDYifSx7InVzZXJfaWQiOiIxIiwidHlwZSI6Iml0ZW12YXVs
+        dCIsInByaW1hcnlfaXRlbV9pZCI6IjEiLCJzZWNvbmRhcnlfaXRlbV9pZCI6
+        bnVsbCwidGVydGlhcnlfaXRlbV9pZCI6bnVsbCwicGxhY2VfaWQiOm51bGws
+        ImNvbXBsZXRlZF9zZXRfaWQiOm51bGwsImFjaGlldmVtZW50X2lkIjpudWxs
+        LCJjcmVhdGVkX2F0IjoiVHVlLCAyMSBGZWIgMjAxMiAxMjo1NDoxOSArMDAw
+        MCIsImNvbW1lbnRfY291bnQiOiIwIiwibGFzdF91cGRhdGVkIjoiMjAxMi0w
+        Mi0yMSAxMjo1NDoxOSJ9LHsidXNlcl9pZCI6IjEiLCJ0eXBlIjoiaXRlbXB1
+        cmNoYXNlZCIsInByaW1hcnlfaXRlbV9pZCI6IjEiLCJzZWNvbmRhcnlfaXRl
+        bV9pZCI6bnVsbCwidGVydGlhcnlfaXRlbV9pZCI6bnVsbCwicGxhY2VfaWQi
+        Om51bGwsImNvbXBsZXRlZF9zZXRfaWQiOm51bGwsImFjaGlldmVtZW50X2lk
+        IjpudWxsLCJjcmVhdGVkX2F0IjoiV2VkLCAxNSBGZWIgMjAxMiAxODozNzo1
+        MSArMDAwMCIsImNvbW1lbnRfY291bnQiOiIyIiwibGFzdF91cGRhdGVkIjoi
+        MjAxMy0wMi0xNSAyMDowNDowOSJ9XX0=
+    http_version: 
+  recorded_at: Tue, 19 Feb 2013 08:04:04 GMT
+recorded_with: VCR 2.4.0

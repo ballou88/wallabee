@@ -30,6 +30,22 @@ module Wallabee
       Wallabee::Resource::Branded.new(@faraday)
     end
 
+    def item_information(id)
+      Wallabee::Resource::Items.new(@faraday).information(id)
+    end
+
+    def item_activity(id)
+      Wallabee::Resource::Items.new(@faraday).activity(id)
+    end
+
+    def item_type(id)
+      Wallabee::Resource::ItemType.new(@faraday).information(id)
+    end
+
+    def item_type_item(type_id, item_id)
+      Wallabee::Resource::ItemType.new(@faraday).id_information(type_id, item_id)
+    end
+
     def default_faraday
       Faraday.new(:url => @base_url) do |faraday|
         faraday.request  :url_encoded

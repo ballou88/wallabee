@@ -31,4 +31,37 @@ describe Wallabee::API, :vcr do
       expect(response).to be_instance_of(Array)
     end
   end
+
+  describe "#item_information" do
+    let(:response){ client.item_information(1)}
+
+    it "returns a Hashie::Rash" do
+      expect(response).to be_instance_of(Hashie::Rash)
+    end
+  end
+
+  describe "#item_activity" do
+    let(:response){ client.item_activity(1)}
+
+    it "returns a Hashie:Rash" do
+      expect(response).to be_instance_of(Hashie::Rash)
+    end
+  end
+
+  describe "#item_type" do
+    let(:response){ client.item_type(12)}
+
+    it "returns a Hashie::Rash" do
+      expect(response).to be_instance_of(Hashie::Rash)
+    end
+  end
+
+  describe "#item_type_item" do
+    let(:response){ client.item_type_item(12, 1)}
+
+    it "returns a Hashie::Rash" do
+      expect(response).to be_instance_of(Hashie::Rash)
+    end
+  end
+
 end
